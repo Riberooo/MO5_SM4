@@ -1,0 +1,30 @@
+1. O que sao objetos em javascript?
+    R: é uma coleçao de entidades independentes com propriedades e tipos
+
+2. O que sao atributos em javascript
+    R: sao variaveis contidas em uma classe
+
+3. o Que sao metodos de classe em javascript
+    R: sao funçoes
+
+4. o que e uma classe em javascript
+    R: é um esboço para criar objetos
+
+5. o Que é o construtor de uma classe em javascript
+    R: é uma informação extra que deve ser feita antes de qualquer outra coisa seja chamada
+
+6. Explique o conceito de herença de classes em javascript. De um exemplo de uma herança em javascript
+    R: é um principio na programação orientada a objetos que permite que uma classe herde propriedades e metodos de outra classe.
+
+    class Animal {
+        constructor(name) {
+            this.name = name;
+        }
+    }
+
+    class Rabbit extends Animal {
+        constructor(name, earLength) {
+            super(name);
+            this.earLength = earLength;
+        }
+    }
